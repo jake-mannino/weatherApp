@@ -16,22 +16,24 @@
 </head>
 
 <body class="justify-content-center align-self-center bg-dark">
-    <div class="container justify-content-center align-self-center">
-        <div class="row justify-content-center align-self-center">
+    <div class="container justify-content-center align-self-center" style="max-height: 400px; max-width: 2000px; background-color: peru;">
+        <div class="row justify-content-center align-self-center" style="background-color:teal">
             <div class="col-md-4 offset-md-4 col-sm-12 justify-content-center align-self-center">
-                <div class="card justify-content-center align-self-center">
-                    <h1 class="justify-content-center align-self-center">
-                        Weather App
+                <div class="card justify-content-center align-self-center" style="background-color: white;">
+                    <h1 class="justify-content-center align-self-center" style="font-weight: bolder;  letter-spacing: 3px;">
+                        What's The Weather?
                     </h1>
                 </div>
-                <div class="container justify-content-center align-self-center">
-                    <div class="row justify-content-center align-self-center">
+                <div class="container justify-content-center align-self-center" style="background-color: peru;">
+                    <div class="row justify-content-center align-self-center" style="background-color:teal">
                         <div class="col d-block justify-content-center align-self-center">
-                            <div class="card justify-content-center align-self-center">
+                            <div class="card justify-content-center align-self-center" style="background-color: white;">
                                 <div class=" d-block justify-content-center align-self-center" id="zipCodeContainer">
-                                    <p class=" d-block justify-content-center align-self-center text-center">Enter ZipCode</p>
-                                    <input class="zipCode justify-content-center align-self-center" id="zipCode" type="text">
-                                
+                                    <p class=" d-block justify-content-center align-self-center text-center">Enter
+                                        ZipCode</p>
+                                    <input class="zipCode justify-content-center align-self-center text-center" id="zipCode"
+                                        type="text">
+
 
                                 </div>
 
@@ -41,76 +43,24 @@
 
                     </div>
                     <div class="col">
-                        <div class="card bg-dark text-white">
-                            <button id="getWeather">Get Weather</button>
+                        <div class="card bg-dark text-white" style="background-color:peru;">
+                            <button id="getWeather" style="font-weight: bold; letter-spacing: 3px;">Get Weather</button>
                         </div>
 
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
+                <div class="container" style="background-color: peru;">
+                    <div class="row" style="background-color:teal">
                         <div class="col">
-                            <div class="card">
-                                <p class="justify-content-center align-self-center">City</p>
+                            <div class="card" style="background-color: peru;">
+                                <p class="justify-content-center align-self-center" style="font-weight: bolder; letter-spacing: 3px;">City</p>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row" style="background-color:teal">
                         <div class="col">
-                            <div class="card">
-                                <p class="justify-content-center align-self-center" id="city">
-
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="card">
-                                <p class="justify-content-center align-self-center">Temperature</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="card">
-                                <p class="justify-content-center align-self-center" id="tempK">
-
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <p class="justify-content-center align-self-center" id="tempF">
-
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card" >
-                                <p class="justify-content-center align-self-center" id="tempC">
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="card">
-                                <p class="justify-content-center align-self-center"> Conditions</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="card" id="conditions">
-                                <p class="justify-content-center align-self-center bg-dark text-white">
+                            <div class="card" style="background-color: white;">
+                                <p class="justify-content-center align-self-center" style="background-color: white;" id="city">
 
                                 </p>
                             </div>
@@ -118,19 +68,72 @@
 
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
+                <div class="container" style="background-color: white">
+                    <div class="row" style="background-color:teal">
                         <div class="col">
-                            <div class="card">
-                                <p class="justify-content-center align-self-center">Other Information</p>
+                            <div class="card" style="background-color: peru;">
+                                <p class="justify-content-center align-self-center" style="font-weight: bolder; letter-spacing: 3px;">Temperature</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="background-color: teal;">
+                        <div class="col">
+                            <div class="card" style="background-color:white">
+                                <p class="justify-content-center align-self-center" style="background-color: white;" id="tempK">
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="background-color:white">
+                                <p class="justify-content-center align-self-center" style="background-color: white;" id="tempF">
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="background-color:white;">
+                                <p class="justify-content-center align-self-center" style="background-color: white;" id="tempC">
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container" style="background-color: peru;">
+                    <div class="row" style="background-color:teal">
+                        <div class="col">
+                            <div class="card justify-content-center align-self-center text-center"
+                                style="background-color: peru;">
+                                <p class="justify-content-center align-self-center text-center" style="font-weight: bolder; letter-spacing: 3px;"> Conditions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="background-color:teal">
+                        <div class="col">
+                            <div class="card justify-content-center align-self-center text-center" style="background-color: white;" id="conditions">
+                                <p class="justify-content-center align-self-center text-center" style="background-color: white;">
+
+                                </p>
                             </div>
                         </div>
 
                     </div>
-                    <div class="row">
+                </div>
+                <div class="container" style="background-color: peru;">
+                    <div class="row" style="background-color:teal">
                         <div class="col">
-                            <div class="card" id="">
-                                <p class="justify-content-center align-self-center">
+                            <div class="card" style="background-color: peru;">
+                                <p class="justify-content-center align-self-center" style="font-weight: bolder;  letter-spacing: 3px;">Other Information</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row" style="background-color:teal">
+                        <div class="col">
+                            <div class="card" style="background-color: white;">
+                                <p class="justify-content-center align-self-center" style="background-color: white;  letter-spacing: 3px;">
 
                                 </p>
                             </div>
@@ -139,9 +142,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 offset-md-4 col-sm-12">
+            <div class="col-md-4 offset-md-4 col-sm-12 justify-content-center align-self-center">
                 <div class="row">
-                    <div class="card">
+                    <div class="card" style="background-color: peru;">
                         <p class="justify-content-center align-self-center" id="errorMsg">
 
                         </p>
